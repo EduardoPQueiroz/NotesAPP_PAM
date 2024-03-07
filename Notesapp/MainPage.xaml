@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notesapp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                x:Name="GreetLabel"
+                Text="Ei, Receba essa pedrada na sua cabeça"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Entry
+                x:Name="NameEntry"
+                Placeholder="Insira seu nome aqui: "
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Hint="Entry your name here."
+                />
+            
+            <Button
+                x:Name="GreetButton"
+                Text="Clica aqui zé pra tu ver" 
+                SemanticProperties.Hint="Sends a beautiful message to the user"
+                Clicked="OnGreetClicked"
+                HorizontalOptions="Fill" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
