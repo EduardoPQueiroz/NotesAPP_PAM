@@ -5,18 +5,19 @@
              Title="AboutPage">
     <VerticalStackLayout Spacing="10" Margin="10">
         <HorizontalStackLayout Spacing="10">
-            <Image Source="dotnet_bot.png"
-                   SemanticProperties.Description="The dot net bot waving hello!"
-                   HeightRequest="64"/>
-            <Label FontSize="22" FontAttributes="Bold" Text="Notes"
+            <Image Source="pedrada.gif"
+                   SemanticProperties.Description="Macaco gigantesco jogando pedras no usuário."
+                   HeightRequest="160"
+                   />
+            <Label FontSize="22" FontAttributes="Bold" Text="NotesApp"
                    VerticalOptions="End"/>
             <Label FontSize="22" Text="v1.0" VerticalOptions="End"/>
 
         </HorizontalStackLayout>
         
         <Label 
-            Text="This app is written in XAML and C# with .Net MAUI."/>
-        <Button Text="Learn more..." Clicked="LearnMore_cliked"/>
+            Text="Essa aplicação foi desenvolvida com o objetivo de levar o usuário a transformadora experiência de receber uma pedrada em sua cabeça."/>
+        <Button Text="Receba Mais informação na sua cabeça!" Clicked="LearnMore_cliked"/>
 
     </VerticalStackLayout>
         

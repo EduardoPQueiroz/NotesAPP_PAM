@@ -6,4 +6,8 @@ public partial class AboutPage : ContentPage
 	{
 		InitializeComponent();
 	}
+	private void LearnMore_cliked(object sender, EventArgs e)
+	{
+
+	}
 }
