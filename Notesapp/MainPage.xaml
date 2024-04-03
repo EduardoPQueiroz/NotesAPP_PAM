@@ -9,14 +9,14 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="pedrada.gif"
+                Source="testeira_alset.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
             <Label
                 x:Name="GreetLabel"
-                Text="Ei, Receba essa pedrada na sua cabeça"
+                Text="Use o campo abaixo para receber uma bela saudação."
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
@@ -29,7 +29,7 @@
             
             <Button
                 x:Name="GreetButton"
-                Text="Clica aqui zé pra tu ver" 
+                Text="Clica aqui zé e veja o que acontece a seguir." 
                 SemanticProperties.Hint="Sends a beautiful message to the user"
                 Clicked="OnGreetClicked"
                 HorizontalOptions="Fill" />
